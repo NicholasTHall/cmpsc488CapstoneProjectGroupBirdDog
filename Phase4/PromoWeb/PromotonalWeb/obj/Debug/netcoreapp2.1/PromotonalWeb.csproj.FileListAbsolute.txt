@@ -67,3 +67,5 @@ C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Ph
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Debug\netcoreapp2.1\PromotonalWeb.csproj.CopyComplete
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Download.g.cshtml.cs
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Doc.g.cshtml.cs
+C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Home\Help.g.cshtml.cs
