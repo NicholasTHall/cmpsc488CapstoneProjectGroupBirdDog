@@ -107,7 +107,7 @@ using PromotonalWeb.Models;
     <p>Keep in mind the application will <bold>not</bold> create your database tables.  However, there is a ");
             EndContext();
             BeginContext(1844, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "00ead8d17cc24bbaabb34ae1f3ed1522", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "189734a8de5a48e3976ba1276e024977", async() => {
                 BeginContext(1912, 5, true);
                 WriteLiteral("Guide");
                 EndContext();
