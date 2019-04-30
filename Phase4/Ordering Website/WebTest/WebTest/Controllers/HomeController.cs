@@ -168,6 +168,9 @@ namespace WebTest.Controllers
                 if(quantity[0].inv_shelf < 25)
                 {
                     ModelState.AddModelError(string.Empty, "Not enough Quantity of Product on shelf, please check back later");
+                    quantity[0].stock_flag = true;
+                    _dbContext.inventory.Update(quantity[0]);
+                    _dbContext.SaveChanges();
                 }
                 else
                 {
