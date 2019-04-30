@@ -198,7 +198,7 @@ namespace SDesignDesktop
                 
                 for (int i = 0; i < count; i++)
                 {
-                    sRoute = tempBox;
+                    //sRoute = tempBox;
                     int palletNum = i + 1;
                     System.Windows.Controls.ComboBoxItem palID = new ComboBoxItem();
                     palID.Content = palletNum.ToString();
