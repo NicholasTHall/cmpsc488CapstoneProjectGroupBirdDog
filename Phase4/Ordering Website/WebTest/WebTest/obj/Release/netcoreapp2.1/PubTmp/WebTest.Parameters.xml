@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="warehousemasteronline" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\johnf\\Source\\Repos\\NicholasTHall\\cmpsc488CapstoneProjectGroupBirdDog\\Phase4\\Ordering\ Website\\WebTest\\WebTest\\obj\\Release\\netcoreapp2\.1\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
