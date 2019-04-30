@@ -37,7 +37,6 @@ namespace PromotonalWeb.Controllers
         {
             return View();
         }
-        [HttpPost]
         public IActionResult Help()
         {
             return View();
