@@ -33,3 +33,4 @@ C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Ph
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Release\netcoreapp2.1\PromotonalWeb.dll
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Release\netcoreapp2.1\PromotonalWeb.pdb
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Release\netcoreapp2.1\PromotonalWeb.csproj.CopyComplete
+C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\PromoWeb\PromotonalWeb\obj\Release\netcoreapp2.1\Razor\Views\Home\Help.g.cshtml.cs
