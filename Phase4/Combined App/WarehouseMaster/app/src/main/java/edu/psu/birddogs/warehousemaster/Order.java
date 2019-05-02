@@ -99,7 +99,7 @@ public class Order extends AppCompatActivity {
                             c.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
-                                    check(v, false);
+                                    revealProd(v);
                                 }
                             });
                             //c.setClickable(false);
