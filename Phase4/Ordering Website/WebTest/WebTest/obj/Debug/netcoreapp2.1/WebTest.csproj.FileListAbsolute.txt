@@ -109,3 +109,4 @@ C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Ph
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\Ordering Website\WebTest\WebTest\obj\Debug\netcoreapp2.1\WebTest.pdb
 C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\Ordering Website\WebTest\WebTest\obj\Debug\netcoreapp2.1\WebTest.csproj.CopyComplete
 C:\Users\Nicholas\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\Ordering Website\WebTest\WebTest\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\johnf\Source\Repos\NicholasTHall\cmpsc488CapstoneProjectGroupBirdDog\Phase4\Ordering Website\WebTest\WebTest\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

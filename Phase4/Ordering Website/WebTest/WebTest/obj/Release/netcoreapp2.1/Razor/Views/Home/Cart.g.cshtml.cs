@@ -75,7 +75,7 @@ using WebTest.Models;
             WriteLiteral("        <tr>\r\n            <td>");
             EndContext();
             BeginContext(258, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9f0d72611ac426dba51febf8a6dd481", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c004e4bb2e0644ceb4da276965622820", async() => {
                 BeginContext(318, 6, true);
                 WriteLiteral("Remove");
                 EndContext();
@@ -148,7 +148,7 @@ using WebTest.Models;
             WriteLiteral("\r\n        </td>\r\n    </tr>    \r\n</table>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(590, 39, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e6c1bdac216b449d86b7bb02c2815f2d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0631ba037315460ba773f1969d82c153", async() => {
                 BeginContext(617, 8, true);
                 WriteLiteral("Products");
                 EndContext();
@@ -170,7 +170,7 @@ using WebTest.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(637, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "875ef5634702482880abb73d7eedeca2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ddfb482e7a44e5495a9801ad7da40fa", async() => {
                 BeginContext(663, 11, true);
                 WriteLiteral("Add to Cart");
                 EndContext();
@@ -192,7 +192,7 @@ using WebTest.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(686, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c33f73184e14a6d93950d8740c5f74a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3779356a62284b70b3a94fbd4f1fa6d2", async() => {
                 BeginContext(714, 12, true);
                 WriteLiteral("Submit Order");
                 EndContext();
