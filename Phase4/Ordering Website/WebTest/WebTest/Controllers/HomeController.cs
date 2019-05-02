@@ -49,6 +49,12 @@ namespace WebTest.Controllers
             }
         }
 
+        public IActionResult Logout()
+        {
+            HttpContext.Session.SetInt32("user_id", -1);
+            return RedirectToAction("Login");
+        }
+
         [HttpGet]
         public async Task<IActionResult> AccountInfoAsync()
         {
@@ -143,6 +149,13 @@ namespace WebTest.Controllers
         [HttpGet]
         public IActionResult AddToCart()
         {
+            return View();
+        }
+
+        [Route("AddToCart/{id}")]
+        public IActionResult AddToCart(int id)
+        {
+            ViewData["Message"] = "The Product Id is " + id;
             return View();
         }
 
