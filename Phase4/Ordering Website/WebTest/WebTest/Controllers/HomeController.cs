@@ -146,20 +146,18 @@ namespace WebTest.Controllers
             }
         }
 
-        [HttpGet]
-        public IActionResult AddToCart()
-        {
-            return View();
-        }
 
-        [Route("AddToCart/{id}")]
+
+        [HttpGet, Route("AddToCart/{id}")]
         public IActionResult AddToCart(int id)
         {
             ViewData["Message"] = "The Product Id is " + id;
             return View();
         }
+        
+        
 
-        [HttpPost]
+        [HttpPost, Route("AddToCart/{id}")]
         public IActionResult AddToCart(OrderItem model)
         {
             var account = _dbContext.product.Where(x => x.prod_id.Equals(model.prod_id)).ToList();
