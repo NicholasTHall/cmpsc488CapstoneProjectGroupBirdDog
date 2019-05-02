@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -43,6 +45,54 @@ namespace dbConnector
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             List data = new List();
+            int id = 0;
+            string address = "1600+Pennsylvania+Ave+NW,Washington,DC,20500";
+
+            string url = "http://www.mapquestapi.com/geocoding/v1/address?key=nOXiWChDoFPzIEHhm2YCilplmnTr0WBh&location=" + address.ToUpper();
+            WebRequest request = WebRequest.Create(url);
+            using (WebResponse response = (HttpWebResponse)request.GetResponse())
+            {
+                using (StreamReader reader = new StreamReader(response.GetResponseStream(), Encoding.UTF8))
+                {
+                    string phrase = reader.ReadToEnd().ToString();
+                    string[] words = phrase.Split('{');
+                    Boolean islat = true;
+                    double lat = 0;
+                    double lng = 0;
+                    
+                    foreach (var word in words)
+                    {
+                        if (word.Contains("Lat") && word.Contains("Lng"))
+                        {
+                            string[] words2 = word.Split(',','}');
+
+                            foreach (var word2 in words2)
+                            {
+                                if (word2.Contains("\"lat\"") || word2.Contains("\"lng\""))
+                                {
+                                    string[] words3 = word2.Split(':');
+                                    if (islat)
+                                    {
+                                        lat = Convert.ToDouble(words3[1]);
+                                        islat = false;
+                                    }
+                                    else
+                                    {
+                                        lng = Convert.ToDouble(words3[1]);
+                                    }                                    
+                                }                                
+                            }                            
+                        }
+                    }
+
+                    this.textBoxData.Text = this.textBoxData.Text + lat + "\n" + lng + "\n";
+                    //this.textBoxData.Text = this.textBoxData.Text + phrase;
+                    reader.Close();
+                }
+                response.Close();
+                
+            }
+            /*
             using (SqlConnection connection = new SqlConnection("Data Source=mycsdb.civb68g6fy4p.us-east-2.rds.amazonaws.com;Initial Catalog=warehouse;User ID=masterUser;Password=master1234;"))
             using (SqlCommand cmd = new SqlCommand("SELECT * FROM product WHERE prod_id = 1", connection))
             {
@@ -59,7 +109,7 @@ namespace dbConnector
                         }
                     }
                 }
-            }
+            }*/
         }
     }
 }
