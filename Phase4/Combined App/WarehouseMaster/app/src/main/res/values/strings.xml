@@ -68,7 +68,7 @@
     <string name="description_label">Description</string>
     <string name="price_label">Price</string>
     <string name="priority_label">Fragility</string>
-    <string name="volume_label">Volume (cm^3)</string>
+    <string name="volume_label">Volume (fl oz)</string>
     <string name="empty_fields_response">Fields cannot be blank.</string>
     <string name="duplicate_product_response">Duplicate product already in inventory.</string>
 
@@ -91,7 +91,7 @@
 
     <string name="pref_key_database">database</string>
     <string name="pref_title_database">Database Name</string>
-    <string name="pref_summary_database">Enter the name of the database to use. Database must use Microsoft SQL Server and have tables formatted exactly as specified on the website otherwise crashes and unexpected behaviour will occur.</string>
+    <string name="pref_summary_database">Enter the name of the database to use. Database must use Microsoft SQL Server and have tables formatted exactly as specified on the Google Play Store page otherwise crashes and unexpected behaviour will occur.</string>
     <string name="pref_default_database">warehouse</string>
 
     <string name="pref_key_username">username</string>

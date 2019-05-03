@@ -99,7 +99,7 @@ public class Order extends AppCompatActivity {
                             c.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
-                                    check(v, false);
+                                    revealProd(v);
                                 }
                             });
                             //c.setClickable(false);
@@ -149,16 +149,7 @@ public class Order extends AppCompatActivity {
         ((CheckBox) v).setChecked(b);
 
 
-        j = j + 100000;
 
-        TextView t = (TextView) findViewById(j);
-
-        //set description visibility
-        if(t.getVisibility() == View.VISIBLE){
-            t.setVisibility(View.GONE);
-        }else {
-            t.setVisibility(View.VISIBLE);
-        }
 
         if (b) {
             if (!product.getScanned())
@@ -176,6 +167,24 @@ public class Order extends AppCompatActivity {
         ((Button) findViewById(R.id.finishPalette)).setEnabled(b);
         ((Button) findViewById(R.id.holdButton)).setEnabled(!b);
         ((Button) findViewById(R.id.scanButton)).setEnabled(!b);
+    }
+    private void revealProd(View v){
+        int j = v.getId();
+
+        j = j + 100000;
+        TextView t = (TextView) findViewById(j);
+
+        CheckBox a = (CheckBox) v;
+
+        a.setChecked(!a.isChecked());
+
+        //set description visibility
+        if(t.getVisibility() == View.VISIBLE){
+            t.setVisibility(View.GONE);
+        }else {
+            t.setVisibility(View.VISIBLE);
+        }
+
     }
     private void reveal(View v){
         int id = v.getId();
