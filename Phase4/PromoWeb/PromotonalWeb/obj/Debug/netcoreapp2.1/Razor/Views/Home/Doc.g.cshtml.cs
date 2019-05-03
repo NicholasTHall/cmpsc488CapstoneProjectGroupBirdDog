@@ -84,7 +84,7 @@ using PromotonalWeb.Models;
             WriteLiteral("<div>\r\n    <h1>Documentation</h1>\r\n    <div id=\"P1\">\r\n        <h3>Phase 1</h3>\r\n        <ul>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(169, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "247e5af33491412da15f246fc5f007c6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6414e3cf537d402a9f56902929c80fe8", async() => {
                 BeginContext(210, 12, true);
                 WriteLiteral("Domain Model");
                 EndContext();
@@ -105,7 +105,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(281, 80, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c668336db1042d580da8209c931bab3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9960e66cbfff4a1ca8ad4e082ff593fa", async() => {
                 BeginContext(334, 23, true);
                 WriteLiteral("High Level Requirements");
                 EndContext();
@@ -126,7 +126,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(416, 65, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1e989401cf23443f8634bd1df7f49fb9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9690a63cea2148808e54c3514afb6203", async() => {
                 BeginContext(461, 16, true);
                 WriteLiteral("Project Glossary");
                 EndContext();
@@ -147,7 +147,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(536, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a666f9a690654ea98adebb2803c03e4a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "06cd701d2ed34ebba87a297bd55acb11", async() => {
                 BeginContext(588, 23, true);
                 WriteLiteral("Add/Edit Route Use Case");
                 EndContext();
@@ -168,7 +168,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(670, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6b7750d8efd5428f9cfe04c9e3a7ab21", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d3b2a1cf085a499e92776fa5c0a14a64", async() => {
                 BeginContext(721, 22, true);
                 WriteLiteral("Inspect Route Use Case");
                 EndContext();
@@ -189,7 +189,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(802, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "11edb35e0e41420ba5b1c7ff52da8d7e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6af9272b4f14756ac01530db39e5a6c", async() => {
                 BeginContext(856, 25, true);
                 WriteLiteral("Ordering Website Use Case");
                 EndContext();
@@ -210,7 +210,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(940, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8d0f0f675ac448b29bd0ccecd1a80639", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d22fb7cc299748b99aa0ac68f34d43b2", async() => {
                 BeginContext(989, 20, true);
                 WriteLiteral("Picking App Use Case");
                 EndContext();
@@ -231,7 +231,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1068, 75, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b823120ecd1943aeb8544d10c9f42b48", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a257312132304a3ab59c82440bbf3acf", async() => {
                 BeginContext(1118, 21, true);
                 WriteLiteral("Stocking App Use Case");
                 EndContext();
@@ -252,7 +252,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n        </ul>\r\n    </div>\r\n    <div id=\"P2\">\r\n        <h3>Phase 2</h3>\r\n        <ul>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1284, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4e1febd8b27b4dc5ae45b0aa785e5fa4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d1c12391a859411ca9db6f6bffeeba14", async() => {
                 BeginContext(1333, 20, true);
                 WriteLiteral("Static Class Diagram");
                 EndContext();
@@ -273,7 +273,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1412, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e60eda6b2b724c59bbf3614230b5a0ed", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c91349b3ac4e41419f49b1bd827b9d67", async() => {
                 BeginContext(1463, 22, true);
                 WriteLiteral("Technical Architecture");
                 EndContext();
@@ -294,7 +294,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1544, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4bd774153df640a6930c6a131dc719cd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "185777337f89441d88c29ec3c97bfc69", async() => {
                 BeginContext(1596, 27, true);
                 WriteLiteral("Add Edit Robustness Diagram");
                 EndContext();
@@ -315,7 +315,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1682, 83, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9134189b2d64f39abb229f2e1987e75", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1692fe7b81cc4c199a0db8f623a13656", async() => {
                 BeginContext(1736, 25, true);
                 WriteLiteral("Add Edit Sequence Diagram");
                 EndContext();
@@ -336,7 +336,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1820, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70eb189254d4495b9a372a95c048e8a1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5cf3a6f8e7134a52ad72b6894f45b16e", async() => {
                 BeginContext(1882, 32, true);
                 WriteLiteral("Inspect Route Robustness Diagram");
                 EndContext();
@@ -357,7 +357,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(1973, 98, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a82ed3b5522b411795dba6f5c22c5fd4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "342765499b8847f4b89dce699d652aea", async() => {
                 BeginContext(2037, 30, true);
                 WriteLiteral("Inspect Route Sequence Diagram");
                 EndContext();
@@ -378,7 +378,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2126, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da56d9ef5801431f90e8be1d74f3da81", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab18d72aaebf4d688866e33fc59cd727", async() => {
                 BeginContext(2177, 35, true);
                 WriteLiteral("Ordering Website Robustness Diagram");
                 EndContext();
@@ -399,7 +399,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2271, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22628676f4c54e8e9bc88b30b79f3b2e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1ee860678dcd4e49b33ead4a0c6f8aaf", async() => {
                 BeginContext(2316, 33, true);
                 WriteLiteral("Ordering Website Sequence Diagram");
                 EndContext();
@@ -420,7 +420,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2408, 93, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7347113b09a84c1881a6f3ed7d30b41b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44f6628fdbeb42698d0ebb060ee5146c", async() => {
                 BeginContext(2467, 30, true);
                 WriteLiteral("Picking App Robustness Diagram");
                 EndContext();
@@ -441,7 +441,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2556, 89, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96befadcc74b4ab8a56b08fb21bacafc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1026fb8cf6a4208acb9ae737be1221b", async() => {
                 BeginContext(2613, 28, true);
                 WriteLiteral("Picking App Sequence Diagram");
                 EndContext();
@@ -462,7 +462,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2700, 87, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96cf37cf03eb49a7bdc2daa2943dd18c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "54e6ebec086d483a962d3bd1375103f6", async() => {
                 BeginContext(2752, 31, true);
                 WriteLiteral("Stocking App Robustness Diagram");
                 EndContext();
@@ -483,7 +483,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(2842, 91, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "036a406be9d8436f83511a9cd9e82192", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ec4ccf39311e4f7dabb5a7b696cfb858", async() => {
                 BeginContext(2900, 29, true);
                 WriteLiteral("Stocking App Sequence Diagram");
                 EndContext();
@@ -504,7 +504,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n        </ul>\r\n    </div>\r\n    <div id=\"P3\">\r\n        <h3>Phase 3</h3>\r\n        <ul>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(3074, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a41824c950134b4e85d2e29d0254abba", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6f4cec046774882afd2cbfdf41fc6d5", async() => {
                 BeginContext(3114, 11, true);
                 WriteLiteral("Gantt Chart");
                 EndContext();
@@ -525,7 +525,7 @@ using PromotonalWeb.Models;
             WriteLiteral("\r\n            </li>\r\n            <li>\r\n                ");
             EndContext();
             BeginContext(3184, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5f26eac5e6974992a6bedf15f1f38dd9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a59662c343344713a3c8a5111aa33702", async() => {
                 BeginContext(3218, 16, true);
                 WriteLiteral("Development Plan");
                 EndContext();
