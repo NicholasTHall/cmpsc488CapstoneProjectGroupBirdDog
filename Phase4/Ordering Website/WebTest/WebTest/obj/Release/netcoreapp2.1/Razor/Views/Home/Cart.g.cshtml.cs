@@ -74,7 +74,7 @@ using WebTest.Models;
             WriteLiteral("        <tr>\r\n            <td>");
             EndContext();
             BeginContext(258, 70, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fab0ea659bd9402eb7926029574fcf4e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3d34b51343e1434ebbf275745dee88b6", async() => {
                 BeginContext(318, 6, true);
                 WriteLiteral("Remove");
                 EndContext();
@@ -147,7 +147,7 @@ using WebTest.Models;
             WriteLiteral("\r\n        </td>\r\n    </tr>    \r\n</table>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(590, 39, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "52f34caae0c147719e0d5e2e81ef3650", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "726752c58558409fb29cabb9b2249195", async() => {
                 BeginContext(617, 8, true);
                 WriteLiteral("Products");
                 EndContext();
@@ -169,7 +169,7 @@ using WebTest.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(637, 44, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d181a2203e7a41a195cbc1096356ddaa", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c491005975014b22ac45b77e43f71fdd", async() => {
                 BeginContext(665, 12, true);
                 WriteLiteral("Submit Order");
                 EndContext();
