@@ -52,6 +52,9 @@ namespace WebTest.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.SetInt32("user_id", -1);
+            List<OrderItem> ResetCart = new List<OrderItem>();
+            SessionHelper.SetObjectAsJson(HttpContext.Session, "cart", ResetCart);
+            ViewBag.cart = ResetCart;
             return RedirectToAction("Login");
         }
 
@@ -160,9 +163,9 @@ namespace WebTest.Controllers
         [HttpPost, Route("AddToCart/{id}")]
         public IActionResult AddToCart(OrderItem model)
         {
-            var account = _dbContext.product.Where(x => x.prod_id.Equals(model.prod_id)).ToList();
+            var product = _dbContext.product.Where(x => x.prod_id.Equals(model.prod_id)).ToList();
             var quantity = _dbContext.inventory.Where(x => x.prod_id.Equals(model.prod_id)).ToList();
-            if (account.Count() < 1)
+            if (product.Count() < 1)
             {
                 ModelState.AddModelError(string.Empty, "Invalid Product Id.");
                 return View();
@@ -178,14 +181,14 @@ namespace WebTest.Controllers
             {
                 if(quantity[0].inv_shelf < 25)
                 {
-                    ModelState.AddModelError(string.Empty, "Not enough Quantity of Product on shelf, please check back later");
+                    ModelState.AddModelError(string.Empty, "Not enough Quantity of Product on shelf, please check back later. Current Quantity is " + quantity[0].inv_shelf);
                     quantity[0].stock_flag = true;
                     _dbContext.inventory.Update(quantity[0]);
                     _dbContext.SaveChanges();
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Not enough Quantity of Product on shelf, please order a lower Quantity");
+                    ModelState.AddModelError(string.Empty, "Not enough Quantity of Product on shelf, please order a lower Quantity. Current Quantity is " + quantity[0].inv_shelf);
                 }                
                 return View();
             }

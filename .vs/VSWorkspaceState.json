@@ -3,11 +3,8 @@
     "",
     "\\Phase4",
     "\\Phase4\\Desktop",
-    "\\Phase4\\Desktop\\dbConnector",
-    "\\Phase4\\PromoWeb",
-    "\\Phase4\\PromoWeb\\PromotonalWeb",
-    "\\Phase4\\PromoWeb\\PromotonalWeb\\Views",
-    "\\Phase4\\PromoWeb\\PromotonalWeb\\Views\\Home"
+    "\\Phase4\\Desktop\\CapstoneDesktopApp",
+    "\\Phase4\\Desktop\\dbConnector"
   ],
   "SelectedNode": "\\Phase4\\Desktop\\dbConnector\\dbConnector.sln",
   "PreviewInSolutionExplorer": false
